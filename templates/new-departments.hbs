@@ -1,0 +1,14 @@
+<h2>New Department</h2>
+
+<form>
+  <div class="form-group">
+    <label for="text">Enter Department:</label>
+    {{textarea value=text id="text" class="form-control" rows="5"}}
+  </div>
+
+  <button class="btn btn-primary" {{action "save"}}>Add</button>
+  </form>
+  <ul>
+
+  <li>{{outlet}}</li>
+</ul>
